@@ -1,0 +1,16 @@
+Columna		Titulo
+0		Fecha (columna 0)
+1		"Z-0000"+(4 o 5) (columna 1)
+2		Comprobante inicial (columna 3)
+3		"Z-0000"+(4 o 5)
+4		Comprobante final(columna 4)
+5		Codigo ("1")
+6		Cliente ("Consumidor final")
+7		Cuit ("0")
+8		Importe total (coulumna 10)
+9		Mostrador (Columna 5)
+10		Obra social (columna 9)
+11		Gravado (columna 6)
+
+
+

@@ -1,0 +1,14 @@
+La primera vez que se corre, instalar primero el instalador que viene aqui (con las instrucciones que estan abajo)
+
+-Poner los archivos Compras.inf y ListRepZ.txt en la carpeta Entradas
+-Ejecutar el ejecutable Ejecutar 
+- Las salidas estaran en la carpeta Salidas
+
+Para instalar:
+-Ejecute python-2.7.8
+-Selecciones Install for all users y aprete Next
+-En la siguiente pantalla aparece "Select Destination Directory", aprete Next
+-Luego aparece "Customize Python 2.7.8", En las opciones, "Add python.exe to Path" esta con una cruz
+Aprete en la cruz y seleccione "Entire feature will be install"..., asegurese que en ese
+item no este mas la cruz roja, aprete next.
+Luego se instalara

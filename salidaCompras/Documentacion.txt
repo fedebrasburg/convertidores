@@ -1,0 +1,15 @@
+Columna  Titulo
+0	Fecha
+1	Tipo
+2 	"A" + Numero de factura
+3	Cuit
+4	Condicion
+5	Nombre de drogueria
+6	No grabado
+7	Grabado
+8	IVA
+9	Percepcion IB
+10	Retencion ingresos brutos
+11	Percepcion IVA
+12	Total
+
