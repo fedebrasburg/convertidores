@@ -4,7 +4,7 @@ move Entradas\Compras.inf salidaCompras
 move Entradas\ListRepZ.txt ListRepZ
 
 cd salidaCompras
-python tNuevo.py
+python convertidorCompras.py
 cd ..
 
 cd ListRepZ
