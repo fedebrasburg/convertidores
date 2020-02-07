@@ -77,6 +77,6 @@ def main():
 
     with open('salidaCompras.txt', 'w') as file:
         for linea in salidas:
-            file.write(' '.join(linea) + "\n")
+            file.write(','.join(linea) + "\n")
 
 main()
