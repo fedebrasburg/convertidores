@@ -60,7 +60,7 @@ def main():
             perIva        = linea[8]
             total         = linea[9]
             salidas.append([
-                fecha,
+                '/'.join(fecha[i:i+2] for i in range(0, len(fecha), 2)),
                 "NCC" if float(total.replace(",", ".")) < 0 else "FCC",
                 "A" + str(numeroFactura),
                 cuit,
