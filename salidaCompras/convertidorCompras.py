@@ -64,7 +64,7 @@ def main():
                 "NCC" if float(total.replace(",", ".")) < 0 else "FCC",
                 "A" + str(numeroFactura),
                 cuit,
-                "R",
+                "RI",
                 nombre,
                 exento,
                 grabado,
