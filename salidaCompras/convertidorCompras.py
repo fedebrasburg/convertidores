@@ -5,7 +5,7 @@ import re
 # 2: cuit
 # 3: numero de factura
 # 4: exento
-# 5: grabado
+# 5: gravado
 # 6: iva
 # 7: Perc. IB
 # 8: Perc. iva
@@ -20,7 +20,7 @@ import re
 # condicion: siempre R
 # nombre de la drogueria
 # 4: exento
-# 5: grabado
+# 5: gravado
 # 6: iva
 # 7: Perc. IB
 # Ret. IB: siempre 0
@@ -54,20 +54,20 @@ def main():
             cuit          = linea[2]
             numeroFactura = linea[3]
             exento        = linea[4]
-            grabado       = linea[5]
+            gravado       = linea[5]
             iva           = linea[6]
             percIB        = linea[7]
             perIva        = linea[8]
             total         = linea[9]
             salidas.append([
                 '/'.join(fecha[i:i+2] for i in range(0, len(fecha), 2)),
+                nombre,
+                "RI",
+                cuit,
                 "NCC" if float(total.replace(",", ".")) < 0 else "FCC",
                 "A" + str(numeroFactura),
-                cuit,
-                "RI",
-                nombre,
                 exento,
-                grabado,
+                gravado,
                 iva,
                 percIB,
                 "0,00",
